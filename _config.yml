@@ -3,7 +3,7 @@ id: DCE-RG/DCE-RG.github.io
 # name of the software
 name: Data-Centric Engineering Reading Group
 # description
-description: @ The Alan Turing Institute, London UK
+description: \@ The Alan Turing Institute, London UK
 # current version of the software
 date: 1, January, 2020
 # licence of the software
@@ -18,7 +18,7 @@ favicon: png
 # if download.popup is true, any option is optional
 # download.cdn.img is optional
 download:
-  popup: true
+  popup: false
   url: https://github.com/mistic100/jekyll-bootstrap-doc/archive/gh-pages.zip
   bower: jekyll-bootstrap-doc
   npm: jekyll-bootstrap-doc
