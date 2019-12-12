@@ -3,9 +3,9 @@ id: DCE-RG/DCE-RG.github.io
 # name of the software
 name: Data-Centric Engineering Reading Group
 # description
-description: The Alan Turing Institute, London UK
+description: @ The Alan Turing Institute, London UK
 # current version of the software
-version: 1.2.0
+date: 1, January, 2020
 # licence of the software
 license: MIT License
 licenseUrl: http://opensource.org/licenses/MIT
