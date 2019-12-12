@@ -1,7 +1,9 @@
 # username/repository
-id: mistic100/jekyll-bootstrap-doc
+id: DCE-RG/DCE-RG.github.io
 # name of the software
-name: Jekyll Bootstrap Doc
+name: Data-Centric Engineering Reading Group
+# description
+description: The Alan Turing Institute, London UK
 # current version of the software
 version: 1.2.0
 # licence of the software
