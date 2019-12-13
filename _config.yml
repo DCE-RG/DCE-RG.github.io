@@ -5,6 +5,8 @@ name: Data-Centric Engineering Reading Group
 # description
 description: at The Alan Turing Institute, London UK
 # current version of the software
+version: 1.0
+# updated date
 date: 1st, January, 2020
 # licence of the software
 license: MIT License
@@ -33,16 +35,16 @@ customNavBar: false
 # list of additional links on the right of the top menu
 headerLinks:
   - title: GitHub
-    url: https://github.com/mistic100/jekyll-bootstrap-doc
-  - title: StrangePlanet
-    url: http://www.strangeplanet.fr
+    url: https://github.com/DCE-RG/DCE-RG.github.io
+  - title: Github
+    url: https://github.com/DCE-RG/DCE-RG.github.io
 
 # list if additional links on the footer
 footerLinks:
   - title: GitHub
-    url: https://github.com/mistic100/jekyll-bootstrap-doc
+    url: https://github.com/DCE-RG/DCE-RG.github.io
   - title: Issues
-    url: https://github.com/mistic100/jekyll-bootstrap-doc/issues?state=open
+    url: https://github.com/DCE-RG/DCE-RG.github.io/issues?state=open
 
 # header
 header:
@@ -69,7 +71,7 @@ twitter:
 
 # facebook buttons
 facebook:
-  enabled: true
+  enabled: false
   profileUrl:
 
 
