@@ -1,4 +1,4 @@
-Webpage for Data-Centric Engineering Reading Group
+Data-Centric Engineering Reading Group
 ====================
 
 ### Abstract
@@ -13,7 +13,7 @@ If you would like to join the group and the emailing list, please feel free to c
 
 ====================
 
-#### *Thanks and Use of the MIT licence code
+#### *Thanks and Use of MIT licence code for webpage
 The template for this github webpage: https://github.com/mistic100/jekyll-bootstrap-doc.  
 Copyright (c) 2014-2017 Damien Sorel  
 Released under the MIT license  
