@@ -25,8 +25,7 @@
       background-size: cover;
     }
     #header-image {
-      background: url("https://www.turing.ac.uk/sites/default/files/2019-03/data-centric_engineering_header.jpg") no-repeat center center fixed; 
-      background-size: cover;
+      src: url("https://www.turing.ac.uk/sites/default/files/2019-03/data-centric_engineering_header.jpg"); 
     }
     .bs-docs-masthead {
       padding-top: 50px;
@@ -90,6 +89,7 @@
   =========================================== -->
   {% if page.isHome %}
   <div class="bs-docs-masthead" id="content">
+    <img id="header-image"></img>
     <div class="container">
       <p class="lead"></p>
       <h1 class="home-title">{{site.name}}</h1>
