@@ -10,7 +10,10 @@ This group is open to everyone.
 If you would like to join the group and the emailing list, please feel free to contact organizers.
 
 
-#### *Thanks and Use of the MIT licenced code
+
+====================
+
+#### *Thanks and Use of the MIT licence code
 The template for this github webpage: https://github.com/mistic100/jekyll-bootstrap-doc.  
 Copyright (c) 2014-2017 Damien Sorel  
 Released under the MIT license  
