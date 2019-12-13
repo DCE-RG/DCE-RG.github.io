@@ -188,10 +188,12 @@ isHome: true
 
   <h2 id="pages">Location</h2>
   <p>The Alan Turing Institute</p>
-  <div class="mapouter">
-    <div class="gmap_canvas">
-      <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+    <div id="embeddedmap-display" style="height:100%; width:100%;max-width:100%;">
+      <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=the+Alan+Turing+institute&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
     </div>
+    <a class="googlecode" href="https://sucks.hosting" id="get-mapdata">look</a><style>#embeddedmap-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
   </div>
+
 
 </section>
