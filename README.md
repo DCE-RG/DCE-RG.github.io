@@ -13,7 +13,7 @@ If you would like to join the group and the emailing list, please feel free to c
 
 ====================
 
-#### *Thanks and Use of MIT licence code for webpage
+#### *Thanks and Use of MIT licence webpage template
 The template for this github webpage: https://github.com/mistic100/jekyll-bootstrap-doc.  
 Copyright (c) 2014-2017 Damien Sorel  
 Released under the MIT license  
