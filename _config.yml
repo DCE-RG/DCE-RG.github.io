@@ -50,7 +50,7 @@ footerLinks:
 header:
   color1: "#080331"
   color2: "#673051"
-  trianglify: true
+  trianglify: false
 
 # google analytics
 analytics:
@@ -64,7 +64,7 @@ githubButton:
 
 # twitter buttons
 twitter:
-  enabled: true
+  enabled: false
   via:
   hash:
   account:
