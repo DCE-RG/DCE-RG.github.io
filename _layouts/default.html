@@ -20,15 +20,23 @@
   <link href="{{site.github.url}}/assets/css/style.css" rel="stylesheet">
 
   <style>
+    .bs-docs-masthead {
+      padding: 0px 0px 0px 0px;
+      margin: 0px 0px 20px 0px;
+    }
     #header-image {
       background: url("https://www.turing.ac.uk/sites/default/files/2019-03/data-centric_engineering_header.jpg") no-repeat 50% 150%; 
       background-size: cover;
       padding-top: 50px;
       padding-bottom: 40px;
     }
-    .bs-docs-masthead {
-      padding: 0px 0px 0px 0px;
-      margin: 0px 0px 20px 0px;
+    #header-image-cover{
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   </style>
 
@@ -85,6 +93,7 @@
   {% if page.isHome %}
   <div class="bs-docs-masthead" id="content">
   <div id="header-image">
+  <div id="header-image-cover">
     <div class="container">
       <p class="lead"> </p>
       <h1 class="home-title">{{site.name}}</h1>
@@ -95,6 +104,7 @@
       <p class="lead"> </p>
       <p class="version">Updated at {{site.date}}</p>
     </div>
+  </div>
   </div>
   </div>
   {% endif %}
