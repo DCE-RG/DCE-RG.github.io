@@ -411,12 +411,26 @@ isHome: true
 
   <blockquote>
     <h3>24th Wednesday 11:00 - 12:00 @ Zoom (online) </h3>
-    <h4>&nbsp; &#8226; &nbsp; Topic: TBA </h4>
-    <h4>&nbsp; &#8226; &nbsp; Speaker: TBA </h4>
+    <h4>&nbsp; &#8226; &nbsp; Topic: Cross-validation based adaptive sampling for Gaussian process models </h4>
+    <h4>&nbsp; &#8226; &nbsp; Speaker: Hossein Mohammadi (University of Exeter, UK) </h4>
     <h4>&nbsp; &#8226; &nbsp; Abstract: <a data-toggle="collapse" href="#abstract_0624" role="button" style="color:gray;"> hide / show </a> </h4>
-    <div class="collapse" id="abstract_0624">
+    <div class="collapse in" id="abstract_0624">
         <div class="card card-body abstract-text">
-            TBA
+            In many real-world applications, we are interested in approximating black-box, costly functions as accurately as possible with the smallest number of function evaluations. 
+            A complex computer code is an example of such a function. 
+            In this work, a Gaussian process (GP) emulator is used to approximate the output of complex computer code. 
+            We consider the problem of extending an initial experiment sequentially to improve the emulator. 
+            A sequential sampling approach based on leave-one-out (LOO) cross-validation is proposed that can be easily extended to a batch mode. 
+            This is a desirable property since it saves the user time when parallel computing is available. 
+            After fitting a GP to training data points, the expected squared LOO error (ESELOO) is calculated at each design point. 
+            ESELOO is used as a measure to identify important data points. 
+            More precisely, when this quantity is large at a point it means that the quality of prediction depends a great deal on that point and adding more samples in the nearby region could improve the accuracy of the GP model. 
+            As a result, it is reasonable to select the next sample where ESELOO is maximum. 
+            However, such quantity is only known at the experimental design and needs to be estimated at unobserved points. 
+            To do this, a second GP is fitted to the ESELOOs and where the maximum of the modified expected improvement (EI) criterion occurs is chosen as the next sample. 
+            EI is a popular acquisition function in Bayesian optimisation and is used to trade-off between local/global search. 
+            However, it has tendency towards exploitation, meaning that its maximum is close to the (current) "best" sample. To avoid clustering, a modified version of EI, called pseudo expected improvement, is employed which is more explorative than EI and allows us to discover unexplored regions. 
+            The results show that the proposed sampling method is promising.
         </div>
     </div>
   </blockquote>
